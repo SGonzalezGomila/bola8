@@ -3,7 +3,7 @@ function jugar() {
   const pregunta = inputPregunta.value.trim();
 
   if (!pregunta) {
-    alert("Por favor, escribe una pregunta.");
+    alert("Por favor, escribi una preguntita boludon.");
     return;
   }
 
@@ -21,9 +21,10 @@ function obtenerRespuesta() {
   const opciones = [
     "Sí",
     "No",
-    "Si no te da, mandale perri",
+    "Si no te da",
     "Validamos pero no juzgamos",
-    "Tal vez, quién sabe"
+    "Tal vez, quién sabe",
+    " mandale perri"
   ];
 
   const indice = Math.floor(Math.random() * opciones.length);
